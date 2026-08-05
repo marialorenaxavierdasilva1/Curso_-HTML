@@ -1,0 +1,78 @@
+@font-face{
+    font-family:Europa;
+    src:url('./europa-regular-webfont.ttf')
+}
+
+body{
+    font-family:Europa;
+    background-color: black;
+    color:#ffffff;
+    margin:0px;
+}
+.cabecalho{
+    text-align: center;
+   
+}
+
+.titulo{
+    font-size:50px
+}
+
+.subtitulo{
+  margin-top:-20px;
+  margin-bottom:10px;
+}
+
+.subsubtitulo{
+    margin-top:20px;
+}
+
+.botao{
+    background-color: rgb(98, 128, 65);
+    color:aliceblue;
+    padding:10px 30px;
+    cursor:pointer;
+    border-radius: 100px;
+    border:none;
+}
+
+.menu-superior{
+background-color: rgb(106, 134, 59);
+display:flex;
+align-items: center;
+justify-content: space-between;
+padding:10px 30px;
+}
+
+.menu-botoes{
+list-style-type:none;
+display:flex;
+gap:30px;
+font-size:18px;
+font-weight:700;
+}
+
+.botao-direito{
+background-color:#21302e ;
+color:#ffffff;
+border:none;
+border-radius:20px;
+padding:8px 18px;
+font-size:15px;
+font-weight:bold;
+}
+
+.logo{
+    filter:invert();
+    width:50px;
+}
+
+.video{
+    z-index: -1;
+    position:absolute;
+    width:100%;
+    top:0;
+    left:0;
+}
+
+    

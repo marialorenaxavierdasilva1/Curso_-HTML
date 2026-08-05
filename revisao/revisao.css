@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+body{
+    font-family:  "Dancing Script", cursive;
+color:rgb(68, 59, 59);
+background-color: rgb(175, 151, 151);
+
+}
+
+.titulo{
+text-align: center;
+color:white;
+font-size: 125px;
+margin-bottom: -45px;
+}
+
+.cabecalho{
+    background-image:url("./fundoImg.png");
+    background-size: cover;
+    height:725px;
+}
+.subtitulo{
+text-align: center;
+color:black;
+font-size: 95px;
+}
